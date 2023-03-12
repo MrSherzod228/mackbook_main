@@ -1,0 +1,28 @@
+@media (max-width: 630px) {
+    .sec1 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 420px) {
+    .money {
+        width: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+    .money {
+        width: 200px;
+    }
+    .colors {
+        display: grid;
+        grid: column;
+    }
+}
+
+@media (max-width: 310px) {
+    .boxx {
+        width: 100px;
+        height: 100px;
+    }
+}
